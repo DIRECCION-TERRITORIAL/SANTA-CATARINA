@@ -53,6 +53,14 @@ text-align: center;
      margin: 10px;
      text-align: center; 
 }
+.foto5 { 
+    float: center;
+    width: 250px;
+    line-height:10px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
 
 .foto3 { 
     float: center;
@@ -76,8 +84,10 @@ footer{
     margin: auto;
     overflow: hidden;
 }
-
-.contenedor-footer{
+.footer-left{
+    text-align:center;
+}
+.footer-center{
     display: flex;
     width: 90%;
     justify-content: space-evenly;
@@ -91,6 +101,7 @@ footer{
 }
 iframe{
     margin-bottom: 0px;
+    float:center;
 }
 
 .purpl{
